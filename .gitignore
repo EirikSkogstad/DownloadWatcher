@@ -165,6 +165,8 @@ typings/
 # .idea/misc.xml
 # *.ipr
 
+*.exe
+
 # Sonarlint plugin
 
 # End of https://www.gitignore.io/api/node,webstorm,intellij
