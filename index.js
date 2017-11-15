@@ -49,8 +49,8 @@ process.on('SIGINT', function onSigterm () {
 function printExtensionError(fileExtension) {
   // No need to log these temporary files
   const temporaryFileExtensions = new Set();
-  set.add('.tmp');
-  set.add('.crdownload');
+  temporaryFileExtensions.add('.tmp');
+  temporaryFileExtensions.add('.crdownload');
 
   if(temporaryFileExtensions.has(fileExtension)) {
     return;
