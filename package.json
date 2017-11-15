@@ -1,0 +1,16 @@
+{
+  "name": "mod-mover",
+  "version": "1.0.0",
+  "description": "A simple application that watches a folder for 'NexusMods' modfiles, and if they match, moves to spesified destination folder.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "EirikSkogstad",
+  "license": "ISC",
+  "dependencies": {
+    "username": "^3.0.0",
+    "watch": "^1.0.2",
+    "yargs": "^10.0.3"
+  }
+}
