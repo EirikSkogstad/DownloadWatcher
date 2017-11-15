@@ -6,6 +6,7 @@ const username = require('username');
 const legalExtensions = new Set();
 legalExtensions.add('.7z');
 legalExtensions.add('.zip');
+legalExtensions.add('.rar');
 
 
 const currentUsername = username.sync();
