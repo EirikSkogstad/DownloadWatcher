@@ -10,8 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "chokidar": "^1.7.0",
+    "command-line-args": "^4.0.7",
     "nodemon": "^1.12.1",
-    "username": "^3.0.0",
-    "yargs": "^10.0.3"
+    "username": "^3.0.0"
   }
 }

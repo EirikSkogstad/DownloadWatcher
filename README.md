@@ -8,5 +8,5 @@ The purpose of this application, is to be a convience fix having copy files manu
 - Needs Node `8.5.0` or higher.
 
 #### Creating executable for Windows:
-`npm i pkg -g`
+`npm i pkg -g` <br/>
 `pkg index.js --targets latest-win-x64`
